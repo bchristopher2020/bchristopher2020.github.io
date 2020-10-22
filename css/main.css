@@ -515,7 +515,7 @@ body {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  background: #fff;
+  background: #D6ADD3;
   border: solid 1px #f1f1f1;
   border-bottom: 0px;
   border-radius: 4px 4px 0 0;
@@ -540,7 +540,7 @@ body {
 }
 
 .tab.active {
-  background: #fff;
+  background: #F9CFF6;
   position: relative;
   top: 1px;
   border-color: #f1f1f1;
@@ -590,7 +590,7 @@ body {
 }
 
 .info h4, #header h4 {
-  color: ##D533FF;
+  color: #D533FF;
   margin-bottom: 2em;
 }
 
@@ -899,7 +899,7 @@ input[type=text], .project_description, input[type=url] {
 
 /* Set a style for all buttons */
 .project_submit {
-  background-color: #4CAF50;
+  background-color: #D6ADD3;
   color: white;
   padding: 14px 20px;
   margin: 5px 26px;
