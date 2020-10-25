@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html class="no-js">
-
 <head>
   <!-- Add Your Title -->
   <title>Christopher Burt </title>
-
   <!-- All Meta Tags -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
-
   <!-- All Link tags -->
   <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
   <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
@@ -22,22 +19,16 @@
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <!-- All script tags -->
   <script>document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
   <script src="js/vendor/jquery.hashchange.min.js"></script>
   <script src="js/vendor/jquery.easytabs.min.js"></script>
   <script src="js/main.js"></script>
-  
-
 </head>
-
 <!-- Start of Body Tag -->
-
 <body class="bg-fixed bg-1">
   <div class="main-container">
     <div class="main wrapper clearfix">
-
       <!-- Header Start -->
       <header id="header">
         <div id="logo">
@@ -49,7 +40,6 @@
           </h4>
         </div>
       </header>
-
       <!-- Text "hello world" -->
       <header id="header">
         <div id="helloworld">
@@ -58,24 +48,18 @@
           </h1>
         </div>
       </header>
-
       <!-- Main Tab Container -->
       <div id="tab-container" class="tab-container">
-
         <!-- Tab List -->
         <ul class='etabs'>
-
           <li class='tab' id="tab-about">
             <a href="#about">
               <i class="fa fa-drivers-license"></i>
-              
               <span>
                 About
               </span>
-              
             </a>
           </li>
-
           <li class='tab'>
             <a href="#resume">
               <!-- <i class="icon-file-text"></i> -->
@@ -85,7 +69,6 @@
               </span>
             </a>
           </li>
-
           <li class='tab'>
             <a href="#portfolio">
               <i class="fa fa-puzzle-piece"></i>
@@ -94,7 +77,6 @@
               </span>
             </a>
           </li>
-
           <li class='tab'>
             <a href="#contact">
               <i class="fa fa-address-card"></i>
@@ -103,14 +85,11 @@
               </span>
             </a>
           </li>
-
         </ul>
         <!-- End Tab List -->
-
         <!-- ----------------------------------------------------------------------------------- -->
         <!-- Code for differents Tabs strat from here. -->
         <div id="tab-data-wrap">
-
           <!-- About Tab Data -->
           <div id="about">
             <section class="clearfix">
@@ -126,14 +105,11 @@
                   <h4>
                     IT Professional
                   </h4>
-                  
-                    I am a recent graduate in programming seeking an entry-level role for a career change into the ever-changing and exciting world of 
-                    Information Technology.  
+                    I am a recent graduate in programming seeking an entry-level role for a career change into the ever-changing and exciting world of
+                    Information Technology.
                   </p>
-                  
                 </div>
               </div>
-
               <div class="g1">
                 <div class="main-links sidebar">
                   <ul>
@@ -168,7 +144,6 @@
                         </a>
                       </h3>
                       <p>
-
                       </p>
                     </div>
                   </div>
@@ -215,7 +190,6 @@
                 <h3>
                   Programming
                 </h3>
-               
                 <div class="meter wisteria">
                   <span style="width: 90%">
                     <span>
@@ -252,15 +226,11 @@
                   </span>
                 </div>
                 <div class="break"></div>
-
                 <br>
                 <br>
                 <div align-center><h5>The above meter represents comparative appraisal of knowledge within each language</h5></div>
                 <br><br>
               </div>
-
-              
-
               <div class="g1">
                 <h3>
                   Skills
@@ -301,7 +271,6 @@
                   </span>
                 </div>
               </div>
-
               <div class="g2">
                 <h3>
                   Hobbies
@@ -313,7 +282,6 @@
               </div>
             </section>
           </div>
-
           <!-- End skills Tab Data -->
           <!-- ----------------------------------------------------------------------------------- -->
           <!-- Projects Tab Data -->
@@ -376,15 +344,12 @@
                 </div>
               </div>
               <div id="modal-wrapper" class="modal">
-
                 <form class="modal-content animate">
-
                   <div class="imgcontainer">
                     <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
                     <img src="images/floor.jpg" alt="project" class="avatar">
                     <h1 class="project_details" style="text-align:center">Project Details</h1>
                   </div>
-
                   <div class="container">
                     <input type="text" placeholder="Project Name" name="uname" readonly>
                     <textarea class="project_description" rows="3" placeholder="Project Description" readonly></textarea>
@@ -392,9 +357,7 @@
                     <input type="text" placeholder="Languages used" readonly>
                     <button class="project_submit" type="submit">Submit</button>
                   </div>
-
                 </form>
-
               </div>
             </section>
           </div>
@@ -430,7 +393,6 @@
                     </h4><br>
                     <a href = "mailto: burtchristopher2020@gmail.com">Email Me</a>
                     <p>
-                      
                     </p>
                   </div>
                 </div>
@@ -458,5 +420,4 @@
         </div>
       </div>
 </body>
-
 </html>
