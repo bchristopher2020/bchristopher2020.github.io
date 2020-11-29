@@ -440,35 +440,27 @@
               <div class="project-section">
                 <div class="project-container">
                   <div class="project-img-container"
-                    onclick="document.getElementById('modal-wrapper').style.display='block'">
+                    onclick="document.getElementById('modal-wrapper1').style.display='block'">
                     <img src="./images/lectureBot.png" alt="project image">
                   </div>
                   <p class="project-title">React App using AWS(LectureBot)*Pre-Alpha</p>
                 </div>
                 <div class="project-container">
                   <div class="project-img-container"
-                    onclick="document.getElementById('modal-wrapper').style.display='block'">
+                    onclick="document.getElementById('modal-wrapper2').style.display='block'">
                     <img src="./images/keybrdback.jpg" alt="project image">
                   </div>
                   <p class="project-title">Photography Website(AWS S3 static hosting)</p>
                 </div>
                 <div class="project-container">
                   <div class="project-img-container"
-                    onclick="document.getElementById('modal-wrapper').style.display='block'">
+                    onclick="document.getElementById('modal-wrapper3').style.display='block'">
                     <img src="./images/keybrdback.jpg" alt="project image">
                   </div>
                   <p class="project-title">RoboFriends React project(RN Udemy project)</p>
                 </div>
-                <div class="project-container">
-                  <div class="project-img-container"
-                    onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="./images/keybrdback.jpg" alt="project image">
-                  </div>
-                  <p class="project-title">Project Title</p>
-                </div>
-             
               </div>
-              <div id="modal-wrapper" class="modal">
+              <div id="modal-wrapper1" class="modal">
 
                 <form class="modal-content animate">
 
@@ -481,8 +473,56 @@
 
                   <div class="container">
                     <input type="text" placeholder="Project Name" name="uname" readonly>
-                    <textarea class="project_description" rows="3" placeholder="Project Description"
-                      readonly></textarea>
+                    <textarea class="project_description" rows="3" placeholder="Project information"
+                      readonly>This project converts uploaded files of text into an MP3 that can be played in an audiobook.  This is all hosted with AWS</textarea>
+                    <input type="url" placeholder="Project Link" readonly>
+                    <input type="text" placeholder="Languages used" readonly>
+                    <button class="project_submit" type="submit">Submit</button>
+                  </div>
+
+                </form>
+
+              </div>
+
+              <div id="modal-wrapper2" class="modal">
+
+                <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close"
+                      title="Close PopUp">&times;</span>
+                    <img src="images/keybrdback.jpg" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Project Details</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Project Name" name="uname" readonly>
+                    <textarea class="project_description" rows="3" placeholder="Project information"
+                      readonly>This project is a photography portfolio for my personal collection of pictures</textarea>
+                    <input type="url" placeholder="Project Link" readonly>
+                    <input type="text" placeholder="Languages used" readonly>
+                    <button class="project_submit" type="submit">Submit</button>
+                  </div>
+
+                </form>
+
+              </div>
+
+              <div id="modal-wrapper3" class="modal">
+
+                <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close"
+                      title="Close PopUp">&times;</span>
+                    <img src="images/keybrdback.jpg" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Project Details</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Project Name" name="uname" readonly>
+                    <textarea class="project_description" rows="3" placeholder="Project information"
+                      readonly>This project converts uploaded files of text into an MP3 that can be played in an audiobook.  This is all hosted with AWS</textarea>
                     <input type="url" placeholder="Project Link" readonly>
                     <input type="text" placeholder="Languages used" readonly>
                     <button class="project_submit" type="submit">Submit</button>
