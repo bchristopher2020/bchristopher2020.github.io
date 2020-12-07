@@ -660,12 +660,12 @@ body {
   margin-right: 20px;
   margin-top: 30px;
   overflow: hidden;
-  transition: width 2s, height 2s, transform 2s;
+  transition: transform 4s;
 }
 .photo:hover {
   width: 300px;
   height: 300px;
-  transform: rotate(360deg);
+  transform: scale(1.2);
 }
 
 .photo img {
@@ -963,11 +963,11 @@ body {
   color: #fff;
   cursor: pointer;
   box-shadow: 2px 2px 5px 3px #5cb85c27;
-  transition: width 2s, height 2s, transform 4s;
+  transition: transform 2s;
 }
 
 .project-container:hover {
-  transform: rotate(360deg);
+  transform: translateX(10px) translateY(5px) scale(1.2);
 }
 
 .project-img-container {
