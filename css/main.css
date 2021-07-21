@@ -65,6 +65,7 @@ textarea {
   font: 100% "Lato", sans-serif;
   *font-size: 1em;
   color: #555;
+
 }
 
 /* IE7 and older can't resize px based text */
@@ -563,6 +564,12 @@ body {
 /* Backgrounds */
 .bg-1 {
   background-image: url("../images/fractal4.png");
+  
+
+}
+.backgroundimage{
+
+  opacity: .75;
 }
 
 /* Header */
