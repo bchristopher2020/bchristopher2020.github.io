@@ -606,6 +606,7 @@ body {
   padding: 30px 20px;
   background: #fff;
   border: 1px solid #f1f1f1;
+ /* box-shadow: linear-gradient(to bottom right, #4A74E6, #F87210); */
   box-shadow: 0px 6px #718CC3;
   border-radius: 0px 0px 4px 4px;
 }
@@ -640,7 +641,7 @@ body {
 }
 
 .tab.active {
-  background: #AEC5F2;
+  background: linear-gradient(to bottom right, #4A74E6, #F87210);
   position: relative;
   top: 1px;
   border-color: #f1f1f1;
@@ -906,7 +907,8 @@ body {
 
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #31b0d5;
+  background-image: linear-gradient(to bottom right, #4A74E6, #F87210);
+  /* background-color: #31b0d5; */
 }
 
 .label[href]:hover,
@@ -1016,7 +1018,9 @@ input[type="url"] {
 
 /* Set a style for all buttons */
 .project_submit {
-  background-color: #DEE1E6;
+  /* background-color: #DEE1E6; */
+
+  background-image: linear-gradient(to bottom right, #4A74E6, #F87210);
   color: white;
   padding: 14px 20px;
   margin: 5px 26px;

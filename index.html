@@ -23,11 +23,33 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
   <!-- All script tags -->
   <script>document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
   <script src="js/vendor/jquery.hashchange.min.js"></script>
   <script src="js/vendor/jquery.easytabs.min.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    function chargebattery() {
+      var a;
+      a = document.getElementById("charging");
+      a.innerHTML = "&#xf244;";
+      setTimeout(function () {
+        a.innerHTML = "&#xf243;";
+      }, 1000);
+      setTimeout(function () {
+        a.innerHTML = "&#xf242;";
+      }, 2000);
+      setTimeout(function () {
+        a.innerHTML = "&#xf241;";
+      }, 3000);
+      setTimeout(function () {
+        a.innerHTML = "&#xf240;";
+      }, 4000);
+    }
+    chargebattery();
+    setInterval(chargebattery, 5000);
+    </script>
 
 
 
@@ -41,6 +63,7 @@
 
       <!-- Header Start -->
       <header id="header">
+        
         <div id="logo">
           <h6>
             Christopher Burt
@@ -57,6 +80,7 @@
           <h1>
             Welcome!
           </h1>
+          
         </div>
       </header>
 
@@ -120,10 +144,12 @@
                   <img src="./images/my.jpg" alt="Christopher Burt">
                 </div>
                 <div class="info">
+                  <div id="charging" class="fa"></div>
                   <p>
                   <h2>
                     Christopher Burt
                   </h2>
+                  
                   <h4>
                     IT Professional - Programmer/Analyst
                   </h4>
