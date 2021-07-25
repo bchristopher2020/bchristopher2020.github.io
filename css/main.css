@@ -50,7 +50,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   /* color: #666; */
-  color:rgba(231, 76, 60, 0.6);
+  color: rgba(231, 76, 60, 0.6);
 }
 
 /* Improve default text rendering, handling of kerning pairs and ligatures */
@@ -65,7 +65,6 @@ textarea {
   font: 100% "Lato", sans-serif;
   *font-size: 1em;
   color: #555;
-
 }
 
 /* IE7 and older can't resize px based text */
@@ -99,8 +98,8 @@ h5,
 h6 {
   font-family: "Open Sans", sans-serif;
   /* color: black; */
-  color:rgba(231, 76, 60, 0.6);
-  background-color:rgba(255, 255, 255, 0.8);
+  color: rgba(231, 76, 60, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 h1 {
@@ -108,7 +107,7 @@ h1 {
   font-size: 4.75em;
   line-height: 1.2em;
   margin-bottom: 0.4em;
-  color:black;
+  color: black;
 }
 
 /* 60px / 72px */
@@ -117,7 +116,7 @@ h2 {
   font-size: 2.75em;
   line-height: 1.3em;
   margin-bottom: 0.5em;
-  color:rgba(231, 76, 60, 0.6);
+  color: rgba(231, 76, 60, 0.6);
 }
 
 /* 48px / 48px */
@@ -170,7 +169,7 @@ label {
   font-size: 1em;
   line-height: 1.5em;
   margin-bottom: 1.5em;
-  color:rgba(231, 76, 60, 0.6);
+  color: rgba(231, 76, 60, 0.6);
 }
 
 /* 16px / 24px */
@@ -180,7 +179,6 @@ p.small {
   font-size: 0.875em;
   line-height: 1.7142857142857142857142857142857em;
   margin-bottom: 1.7142857142857142857142857142857em;
-  
 }
 
 /* 14px / 24px */
@@ -337,7 +335,7 @@ dt {
 a {
   text-decoration: none;
   /* color: #444; */
-  color:rgba(231, 76, 60, 0.6);
+  color: rgba(231, 76, 60, 0.6);
   -webkit-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear,
     background-color 0.1s linear;
   -moz-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear,
@@ -355,7 +353,7 @@ a:focus,
 a:active {
   text-decoration: none;
   border: none;
-  color:rgba(160, 158, 158, 0.6);
+  color: rgba(160, 158, 158, 0.6);
 }
 
 /* MEDIA */
@@ -564,30 +562,25 @@ body {
 /* Backgrounds */
 .bg-1 {
   background-image: url("../images/fractal4.png");
- 
-  
-
 }
-
 
 /* Header */
 #header {
   margin-bottom: 2em;
-  color:black;
+  color: black;
 }
 
 #header #logo {
   text-align: center;
   display: none;
-  color:black;
+  color: black;
 }
 
 #header #helloworld {
-  color:rgb(187, 34, 34);
+  color: rgb(187, 34, 34);
   text-align: center;
   display: none;
   font-size: 2vw;
-  
 }
 
 #header h4 {
@@ -595,7 +588,6 @@ body {
 }
 
 #header .visible {
-  
   opacity: 1;
 }
 
@@ -619,16 +611,15 @@ body {
   padding: 30px 20px;
   background: #fff;
   border: 1px solid #f1f1f1;
- /* box-shadow: linear-gradient(to bottom right, #4A74E6, #F87210); */
-  box-shadow: 0px 6px #718CC3;
+  /* box-shadow: linear-gradient(to bottom right, #4A74E6, #F87210); */
+  box-shadow: 0px 6px #718cc3;
   border-radius: 0px 0px 4px 4px;
 }
 
 .tab {
   display: inline-block;
   zoom: 1;
-  
-  
+
   background: #dee1e6;
   border: solid 1px #f1f1f1;
   border-bottom: 0px;
@@ -656,7 +647,7 @@ body {
 }
 
 .tab.active {
-  background: linear-gradient(to bottom right, #4A74E6, #F87210);
+  background: linear-gradient(to bottom right, #4a74e6, #f87210);
   position: relative;
   top: 1px;
   border-color: #f1f1f1;
@@ -701,7 +692,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 0.3em;
-  color: #444
+  color: #444;
 }
 
 .info h2,
@@ -710,7 +701,7 @@ body {
   letter-spacing: 2px;
   margin-bottom: 0.2em;
   margin-top: 0.5em;
-  color:#444;
+  color: #444;
 }
 
 .info h4,
@@ -923,7 +914,7 @@ body {
 
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-image: linear-gradient(to bottom right, #4A74E6, #F87210);
+  background-image: linear-gradient(to bottom right, #4a74e6, #f87210);
   /* background-color: #31b0d5; */
 }
 
@@ -1009,6 +1000,7 @@ body {
   margin: 1.2rem auto;
   font-size: 1.2rem;
   font-weight: 600;
+  color: black;
 }
 .project_details {
   text-align: center;
@@ -1036,7 +1028,7 @@ input[type="url"] {
 .project_submit {
   /* background-color: #DEE1E6; */
 
-  background-image: linear-gradient(to bottom right, #4A74E6, #F87210);
+  background-image: linear-gradient(to bottom right, #4a74e6, #f87210);
   color: white;
   padding: 14px 20px;
   margin: 5px 26px;
@@ -1165,7 +1157,7 @@ input[type="url"] {
 .wisteria > span {
   /* background-color: #8e44ad; */
 
-  background-image: linear-gradient(to bottom right, #4A74E6, #F87210)
+  background-image: linear-gradient(to bottom right, #4a74e6, #f87210);
 }
 
 .sunflower > span {
