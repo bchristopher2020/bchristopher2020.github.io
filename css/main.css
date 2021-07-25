@@ -96,7 +96,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   /* color: black; */
   color: rgba(231, 76, 60, 0.6);
   background-color: rgba(255, 255, 255, 0.8);
@@ -697,6 +697,7 @@ body {
 
 .info h1,
 #header h1 {
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 0.3em;
@@ -705,6 +706,7 @@ body {
 
 .info h2,
 #header h2 {
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 0.2em;
@@ -714,12 +716,14 @@ body {
 
 .info h4,
 #header h4 {
+  font-family: Arial, Helvetica, sans-serif;
   color: #676564;
   margin-bottom: 2em;
 }
 
 .info h6,
 #header h6 {
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 0.3em;
